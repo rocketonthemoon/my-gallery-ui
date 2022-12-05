@@ -1,5 +1,6 @@
 import Profile from "./components/Profile";
 import Gallery from "./components/Gallery";
+import Footer from "./components/Footer";
 import photo1 from "./images/photo1.png";
 import photo2 from "./images/photo2.png";
 import photo3 from "./images/photo3.png";
@@ -13,6 +14,7 @@ function App() {
     <div className="App">
       <Profile />
       <Gallery photos={photoArr} />
+      <Footer />
     </div>
   );
 }
