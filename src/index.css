@@ -1,1 +1,101 @@
+/* fonts used */
 
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600;700&display=swap');
+
+/* font-family: 'Montserrat', sans-serif; */
+
+/* some default styling for cleaner look */
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+}
+
+body {
+  max-width: 1400px;
+  margin: 0 auto;
+  background-color: #fff;
+}
+
+/* color palletes */
+
+.blackish {
+  color: #4e5150;
+}
+
+.grayish {
+  color: #bdbdbd;
+}
+
+/* App Container */
+
+.App {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  margin: 30px;
+}
+
+/* Profile Component */
+
+.Profile {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 15px;
+}
+
+.photo {
+  margin: 0 auto;
+  width: 150px;
+  height: 150px;
+  background-image: url("./images/profilePhoto.png");
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  border-radius: 16px;
+}
+
+.name {
+  font-size: 24px;
+  line-height: 29px;
+}
+
+.region {
+  font-size: 14px;
+  line-height: 17px;
+}
+
+.stats {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.stats .stat {
+  background-color: #e5e5e5;
+  border-radius: 12px;
+  width: 100px;
+  height: 67px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.stats .stat .count {
+  font-size: 18px;
+  line-height: 22px;
+}
+
+.stats .stat .category {
+  font-size: 14px;
+  line-height: 17px;
+}
